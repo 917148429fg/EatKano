@@ -401,11 +401,11 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
         }
         // TODO 添加反馈
         if (mode === MODE_ENDLESS) return '';
-        if (score <= 49) return '试着好好练一下？';
-        if (score <= 99) return 'TCL';
-        if (score <= 149) return 'TQL';
-        if (score <= 199) return '您';
-        return '人？';
+        if (score <= 49) return '你就是歌姬吧？';
+        if (score <= 99) return '太屑了';
+        if (score <= 149) return '吃那么多羽羽休息一下吧';
+        if (score <= 199) return '住手啊';
+        return '吃饱没？';
     }
 
     function toStr(obj) {
